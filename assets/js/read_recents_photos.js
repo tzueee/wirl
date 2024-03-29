@@ -1,4 +1,4 @@
-var root_path = '../assets/img/recent_photo/';
+var root_path = 'assets/img/recent_photo/';
 var img_number = 17;
 
 //用於對照片進行命名

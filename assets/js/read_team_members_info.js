@@ -1,7 +1,7 @@
 /**
 * 學生訊息
 */
-var root_path = "../assets/files/";
+var root_path = "assets/files/";
 var student_info = root_path + "Student_Info.csv";
 var data = d3.dsv(",", student_info).then(function (result) {
 
@@ -37,7 +37,7 @@ var data = d3.dsv(",", student_info).then(function (result) {
         document.querySelector('#Student_Info').appendChild(div);
 
         var img = document.createElement('img');
-        var img_root_path = '../assets/img/students/';
+        var img_root_path = 'assets/img/students/';
         img.setAttribute('src', img_root_path + result[i]['photo_path']);
         img.setAttribute('class', 'img-fluid');
         document.querySelector('#' + result[i]['name']).appendChild(img);
