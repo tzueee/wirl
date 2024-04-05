@@ -1,4 +1,4 @@
-var root_path = "../assets/files/";
+var root_path = "assets/files/";
 var rearch_info = root_path + "Newest.csv"
 var data = d3.dsv(",", rearch_info).then(function (result) {
 
