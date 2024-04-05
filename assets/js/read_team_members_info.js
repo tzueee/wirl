@@ -21,9 +21,16 @@ var data = d3.dsv(",", student_info).then(function (result) {
             case 'master2':
                 student_type = 'ms2';
                 break;
+            case '資安master2':
+                student_type = 'ms2';
+                break;
             case 'master1':
                 student_type = 'ms1';
                 break;
+            case '資安master1':
+                student_type = 'ms1';
+                break;
+    
             default:
                 console.log('STUDENT TYPE ERROR');
         }
